@@ -11,3 +11,4 @@ def start(message):
     bot.send_message(message.chat.id, "Нажми кнопку, чтобы открыть приложение:", reply_markup=markup)
 
 bot.infinity_polling()
+
