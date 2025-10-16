@@ -1,7 +1,7 @@
 from telebot import TeleBot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, WebAppInfo
 
-bot = TeleBot("7828546240:AAFO_-dgTpbDQiUXRsx3CTj1FlZdRsUD11Q")
+bot = TeleBot("@kira_ai_style_bot")
 
 @bot.message_handler(commands=["start"])
 def start(message):
