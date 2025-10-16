@@ -6,7 +6,7 @@ bot = TeleBot("7828546240:AAFO_-dgTpbDQiUXRsx3CTj1FlZdRsUD11Q")
 @bot.message_handler(commands=["start"])
 def start(message):
     markup = ReplyKeyboardMarkup(resize_keyboard=True)
-    btn = KeyboardButton(text="Открыть Mini App", web_app=WebAppInfo(url="https://studio--kira-ai-virtual-styling.us-central1.hosted.app")) 
+    btn = KeyboardButton(text="Открыть Mini App", web_app=WebAppInfo(url="https://studio--studio-4612461108-2107c.us-central1.hosted.app")) 
     markup.add(btn)
     bot.send_message(message.chat.id, "Нажми кнопку, чтобы открыть приложение:", reply_markup=markup)
 
